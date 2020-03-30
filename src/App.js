@@ -27,7 +27,7 @@ class App extends Component {
             <Navbar />
             <div className="container">
               <Route path="/" exact={true} component={Home} />
-              <SecureRoute path="/staff" exact={true} component={Staff} />
+              <SecureRoute path="/secure" exact={true} component={Staff} />
               <Route
                 path="/login"
                 render={() => (
