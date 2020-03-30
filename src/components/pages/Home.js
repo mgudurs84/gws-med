@@ -35,8 +35,8 @@ export default withAuth(
       const mainContent = this.state.authenticated ? (
         <div>
           <p className="lead">
-            You have entered the staff portal,{' '}
-            <Link to="/staff">click here</Link>
+            successfully authenticated with OKTA OPENID connect protocol,{' '}
+            <Link to="/staff">click here  to go secure page</Link>
           </p>
           <button className="btn btn-light btn-lg" onClick={this.logout}>
             Logout
