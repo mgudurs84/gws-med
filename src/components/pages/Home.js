@@ -36,7 +36,7 @@ export default withAuth(
         <div>
           <p className="lead">
             successfully authenticated with OKTA OPENID connect protocol,{' '}
-            <Link to="/staff">click here  to go secure page</Link>
+            <Link to="/secure">click here  to go secure page</Link>
           </p>
           <button className="btn btn-light btn-lg" onClick={this.logout}>
             Logout
