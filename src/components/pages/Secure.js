@@ -21,7 +21,7 @@ class Secure extends Component {
       <div>
         <h1>Welcome {currentUserName}</h1>
         <p>Email: {currentUserEmail}</p>
-        <p>You have reached the authorized  area of the portal</p>
+        <img src="https://gwsbot.s3.amazonaws.com/assets/img/spa.png"/>
       </div>
     );
   }
