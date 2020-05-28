@@ -4,7 +4,7 @@ import { Security, SecureRoute, ImplicitCallback } from '@okta/okta-react';
 
 import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
-import Staff from './components/pages/Staff';
+import secure from './components/pages/Secure';
 import Login from './components/auth/Login';
 
 import './App.css';
@@ -27,7 +27,7 @@ class App extends Component {
             <Navbar />
             <div className="container">
               <Route path="/" exact={true} component={Home} />
-              <SecureRoute path="/secure" exact={true} component={Staff} />
+              <SecureRoute path="/secure" exact={true} component={secure} />
               <Route
                 path="/login"
                 render={() => (
