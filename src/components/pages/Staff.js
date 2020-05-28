@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Staff extends Component {
+class Secure extends Component {
   state = {
     currentUserName: '',
     currentUserEmail: ''
@@ -27,4 +27,4 @@ class Staff extends Component {
   }
 }
 
-export default Staff;
+export default Secure;
